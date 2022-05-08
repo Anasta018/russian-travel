@@ -1,128 +1,17 @@
-.page {
-    background: #2A2C2F;
-    max-width: 1280px;
-    min-width: 320px;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Inter', Arial, sans-serif;
-    color: #FFFFFF;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-}
-
-/*@media screen and (max-width: 1279px)
-.page {
-    min-width: 928px;
-}*/
 
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    margin: 28px auto 0 auto;
-    width: calc(100% - 2 * 48px);
-    max-width: 1184px;
-    max-height: 52px;
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .header {
-      margin: 28px auto 48px;
-      max-width: calc(100% - 96px);
-    }
-  }
-  @media (min-width: 426px) and (max-width: 768px) {
-    .header {
-      margin: 28px auto 48px;
-      max-width: calc(100% - 48px);
-    }
-  }
-  @media (max-width: 425px) {
-    .header {
-      margin: 28px auto 48px;
-      max-width: calc(100% - 32px);
-    }
-  }
-/*@media screen and (max-width: 1279px)
-.header {
-    max-width: 928px;
-}
-
-@media screen and (max-width: 1023px)
-.header {
-    max-width: 720px;
-}
-
-@media screen and (max-width: 767px)
-.header {
-    max-width: 288px;
-}*/
 
 
-.header__logo {
-    max-width: 176px;
-}
-
-@media (max-width: 767px) {
-    .header__logo {
-      width: 142px;
-      height: 42px;
-    }
-  }
-
-.header__lang-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.header__item {
-    margin-right: 18px;
-}
-
-@media (max-width: 767px) {
-    .header__lang-list {
-      margin: 14px 0 0 auto;
-    }
-  }
-
-.header__lang-item:last-child {
-    margin-right: 0;
-}
-
-.header__lang-link {
-    text-decoration: none;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: right;
-    color: #ffffff;
-    transition: opacity .3s ease;
-}
 
 
-@media (max-width: 767px) {
-    .header__lang-link {
-      font-size: 18px;
-      line-height: 24px;
-    }
-  }
 
-.header__lang-link:hover {
-    opacity: 80%;
-}
 
-.header__lang-link_active {
-    text-decoration-line: underline;
-}
+
+
+
+
+
+
 
 .lead {
     max-width: 984px;

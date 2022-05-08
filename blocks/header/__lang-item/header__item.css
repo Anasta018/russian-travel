@@ -1,0 +1,13 @@
+.header__item {
+    margin-right: 18px;
+}
+
+@media (max-width: 767px) {
+    .header__lang-list {
+      margin: 14px 0 0 auto;
+    }
+  }
+
+.header__lang-item:last-child {
+    margin-right: 0;
+}
