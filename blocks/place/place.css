@@ -1,0 +1,8 @@
+.place {
+    margin: 0 0 80px 0;
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    row-gap: 48px;
+    column-gap: 40px;
+    width: 100%;
+}
