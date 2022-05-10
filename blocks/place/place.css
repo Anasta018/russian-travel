@@ -6,3 +6,24 @@
     column-gap: 40px;
     width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+    .place {
+        column-gap: 32px;
+    } 
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        margin: 0 0 73px 0;
+        column-gap: 28px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin: 0 0 50px 0;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    } 
+}
