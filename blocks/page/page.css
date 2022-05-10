@@ -24,10 +24,10 @@
     .page {
         min-width: 720px;
     }
-}
+}*/
 
 @media screen and (max-width: 767px) {
     .page {
-        min-width: 375px;
+        margin-right: 0;
     }   
-}*/
+}
