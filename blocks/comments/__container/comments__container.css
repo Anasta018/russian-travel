@@ -1,0 +1,6 @@
+.comments__container {
+    margin: 72px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 382px);
+    column-gap: 19px;
+}
