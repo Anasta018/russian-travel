@@ -92,6 +92,7 @@
     font-size: 36px;
     line-height: 39px;
     color: #FFFFFF;
+    max-width: 322px;
 }
 
 .video__subtitle {
