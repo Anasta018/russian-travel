@@ -1,9 +1,39 @@
 .video__container {
-    margin: 72px auto;
+    margin: 72px auto 102px auto;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(323px, 1fr);
-    column-gap: 18px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
 }
+
+@media  screen and (max-width: 1279px) {
+    .video__container {
+        gap: 16px;
+    }
+  }
+  
+@media  screen and (max-width: 1023px) {
+    .video__container {
+        margin-top: 56px;
+        gap: 16px;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .video__container {
+        margin-top: 24px;
+        margin-bottom: 64px;
+        flex-direction: column;
+        gap: 8px;
+    }
+  }
+
+@media screen and (max-width: 374px) {
+    .video__container {
+        margin-top: 24px;
+        margin-bottom: 64px;
+        flex-direction: column;
+        gap: 8px;
+    }
+  }

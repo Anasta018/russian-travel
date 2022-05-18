@@ -1,14 +1,15 @@
 .video__item {
-    display: flex;
-    position: relative;
-    flex-direction: column;
     margin: 0 auto;
     text-decoration: none;
-    width: 583px;
+    min-width: 583px;
+    max-height: 323px;
     background-image: url(../../../images/kamchatka.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 5px;
     z-index: 1;
+    position: relative;
+    
 }
 
 .video__item::before {
@@ -31,4 +32,30 @@
 
 .video__item:last-child {
     background-image: url(../../../images/observatory.jpg);
+}
+
+@media  screen and (max-width: 1279px) {
+  .video__item {
+    min-width: 456px;
+    max-height: 288px;
+  }
+}
+
+@media  screen and (max-width: 1023px) {
+  .video__item {
+    min-width: 352px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item {
+    min-width: 343px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video__item {
+    min-width: 288px;
+  }
 }

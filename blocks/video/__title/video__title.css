@@ -8,3 +8,24 @@
     color: #FFFFFF;
     max-width: 322px;
 }
+
+@media  screen and (max-width: 1023px) {
+    .video__title {
+        padding: 8px 0 12px 24px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .video__title {
+        padding: 8px 0 2px 24px;
+    }
+  }
+  
+@media screen and (max-width: 374px) {
+    .video__title {
+        padding-left: 16px;
+        padding-bottom: 3px;
+    }
+  }
