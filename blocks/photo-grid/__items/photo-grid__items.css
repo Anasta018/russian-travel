@@ -27,6 +27,13 @@
     .photo-grid__items {
         grid-template-columns: repeat(1, auto);
         gap: 12px;
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .photo-grid__items {
+        gap: 8px;
         max-width: 288px;
     }
 }

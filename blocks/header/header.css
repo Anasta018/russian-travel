@@ -20,8 +20,14 @@
 
 @media screen and (max-width: 767px) {
   .header {
-    min-width: 288px;
+    min-width: 343px;
     margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .header {
+    min-width: 288px;
   }
 }
 
