@@ -1,21 +1,18 @@
 .comment__quote {
-    margin: 42px auto 24px auto;
+    margin: 42px 0 0 0;
+    /*margin: 42px auto 24px auto;*/
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-}
-
-.comment__quote:last-of-type {
-    margin-bottom: 0;
+    position: relative;
 }
 
 @media  screen and (max-width: 1023px) {
     .comment__quote {
-        margin: 24px auto 27px auto;
+        margin-top: 24px;
         font-size: 16px;
         line-height: 23px;
         order: 3;
     }
-
   }

@@ -15,7 +15,8 @@
     .comments__container {
         margin-top: 66px;
         grid-template-columns: repeat(1, 382px);
-        gap: 6px;
+        gap: 47px;
+        max-width: 382px;
     }
   }
   

@@ -1,5 +1,5 @@
 .comment__author {
-    margin: 0;
+    margin: 24px 0 0 0;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -8,7 +8,7 @@
 
 @media  screen and (max-width: 1279px) {
     .comment__author {
-    
+      margin-top: 16px;
     }
   }
 
